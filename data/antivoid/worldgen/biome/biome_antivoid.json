@@ -1,0 +1,24 @@
+{
+  "attributes": {
+    "minecraft:gameplay/bed_rule": {
+      "can_sleep": "never",
+      "can_set_spawn": "always",
+      "explodes": false,
+      "error_message": "There's a time and a place for everything."
+    },
+    "minecraft:visual/sky_color": 16184820,
+    "minecraft:visual/fog_color": 16184820,
+    "minecraft:visual/fog_start_distance": 0,
+    "minecraft:visual/fog_end_distance": 150
+  },
+  "temperature": 0,
+  "downfall": 0,
+  "has_precipitation": false,
+  "effects": {
+    "water_color": 4159204
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": [],
+  "features": []
+}

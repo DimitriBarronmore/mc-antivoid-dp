@@ -1,0 +1,1 @@
+execute as @a[tag=antivoid_platform_cooldown_cooldown] run tag @s remove antivoid_platform_cooldown_cooldown

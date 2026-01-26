@@ -1,0 +1,20 @@
+{
+  "type": "antivoid:dim_antivoid",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "antivoid:biome_antivoid",
+      "features": false,
+      "layers": [
+        {
+          "height": 1,
+          "block": "antivoid:void_bedrock"
+        },
+        {
+          "height": 40,
+          "block": "antivoid:void_ground"
+        }
+      ]
+    }
+  }
+}
