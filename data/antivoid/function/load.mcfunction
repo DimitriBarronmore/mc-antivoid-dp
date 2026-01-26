@@ -14,7 +14,8 @@ bossbar add antivoid_time {"text":"Time Remaining","bold":true,"color":"#B5BEB0"
 
 # First Run
 execute unless score first_run ANTIVOID_VAR matches 1 run function antivoid:config/initial
-execute unless score first_run ANTIVOID_VAR matches 1 run tellraw @a ["",{"text":"Welcome to ANTIVOID.","bold":true,"italic":true,"color":"dark_green"},"\n",{"text":"Please consider checking the ","color":"dark_green"},{"text":"[settings]","underlined":true,"color":"yellow","click_event":{"action":"run_command","command":"/function antivoid:config/menu"}},{"text":".","color":"dark_green"}]
+execute unless score first_run ANTIVOID_VAR matches 1 in antivoid:antivoid run worldborder set 400
+execute unless score first_run ANTIVOID_VAR matches 1 run tellraw @a ["",{"text":"Welcome to ANTIVOID.","bold":true,"italic":true,"color":"dark_green"},"\n",{"text":"World border set to 400x400.\nPlease consider checking the ","color":"dark_green"},{"text":"[settings]","underlined":true,"color":"yellow","click_event":{"action":"run_command","command":"/function antivoid:config/menu"}},{"text":".","color":"dark_green"}]
 scoreboard players set first_run ANTIVOID_VAR 1
 
 # Set up void well
