@@ -1,5 +1,5 @@
 # mc-antivoid-dp
-Internal datapack for the ANTIVOID modpack
+Internal datapack for the ANTIVOID mod/modpack
 
 Requirements:
 - Minecraft 1.21.11
