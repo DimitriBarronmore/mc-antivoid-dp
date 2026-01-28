@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:ender_pearl",
+    "minecraft:ender_pearl",
+    "minecraft:ender_pearl",
+    "minecraft:white_dye"
+  ],
+  "result": {
+    "id": "antivoid:void_ground",
+    "count": 16
+  }
+}
